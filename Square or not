@@ -1,0 +1,12 @@
+//Square or not
+b = int(input("Input the width : ")) 
+
+h = int(input("Input the height : ")) 
+
+if(h==b): 
+
+                  print("The given input gives out a square ") 
+
+else: 
+
+                  print("The given input doesn’t gives out a square ")  
