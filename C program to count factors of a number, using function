@@ -1,0 +1,23 @@
+// C program to count factors of a number, using function
+#include<stdio.h>
+void findFactors (int num) 
+{
+  int i, count = 0;
+ for (i = 1; i <= num; ++i)
+   {
+     if (num % i == 0)
+	 {
+	   count++;
+       printf ("%d\t", i);
+     }
+   }
+   printf ("\nTotal factors of % d:%d ", num, count);
+}
+   int main () 
+{
+   int number;
+   printf ("Enter number: ");
+    scanf ("%d", &number);
+    findFactors (number);
+return 0;
+}
